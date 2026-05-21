@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumiere</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER/HERO -->
+    <header class="header__hero">
+
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">COLLECTIONS</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">THE LINEUP</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">EDITORIAL</a>
+                </li>
+
+                <div class="menu__spacer"></div>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">SEARCH</a>
+                </li>
+                <li class="menu__item menu__item--bag">
+                    <a href="#" class="menu__link menu__link--bag">BAG (5)</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="container">
+
+                <p class="hero__tagline">
+                    Sculpting Light.<br> Your Skin, Redefined.
+                </p>
+
+                <div class="hero__image-wrap">
+                    <img src="images/header-bg.webp" alt="" class="hero__img">
+                </div>
+
+                <h1 class="hero__brand">Lumière</h1>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- СЕКЦИЯ 2 BEST SELLERS -->
+    <section class="best-sellers">
+        <div class="container">
+            <div class="section__head">
+                <p class="section__label">Best Sellers</p>
+                <h2 class="section__title">The search<br>ends here</h2>
+                <div class="section__divider"></div>
+            </div>
+
+
+
+            <div class="best-sellers__nav">
+                <div class="best-sellers__tabs">
+                    <button class="best-sellers__tab best-sellers__tab--active">Cleanse</button>
+                    <button class="best-sellers__tab">Treat</button>
+                    <button class="best-sellers__tab">Hydrate</button>
+                    <button class="best-sellers__tab">Protect</button>
+                </div>
+                <div class="best-sellers__arrows">
+
+                    <button class="best-sellers__arrow best-sellers__arrow--prev" aria-label="Previous">
+                    <img src="images/arrow-prev.svg" alt="">
+                </button>
+                    <button class="best-sellers__arrow best-sellers__arrow--next" aria-label="Next">
+                    <img src="images/arrow-next.svg" alt="">
+                </button>
+                </div>
+            </div>
+
+            <div class="best-sellers__grid">
+
+                <!-- Card 1 -->
+                <article class="product-card">
+
+                    <div class="product-card__img-wrap">
+
+                        <span class="product-card__badge">
+            Collector's
+        </span>
+
+                        <button class="product-card__wishlist" aria-label="Add to wishlist">
+            <img src="images/heart.svg" alt="">
+        </button>
+
+                        <img src="images/product-1.png" alt="Core Essence" class="product-card__img">
+
+                        <div class="product-card__hover">
+                            <button class="product-card__add-btn">
+                Add to Bag
+            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-card__info">
+                        <p class="product-card__name">Core Essence</p>
+                        <p class="product-card__price">$120.00</p>
+                    </div>
+
+                </article>
+
+                <!-- Card 2 -->
+                <article class="product-card">
+
+                    <div class="product-card__img-wrap">
+
+                        <span class="product-card__badge">
+            Vault
+        </span>
+
+                        <button class="product-card__wishlist" aria-label="Add to wishlist">
+            <img src="images/heart-red.svg" alt="">
+        </button>
+
+                        <img src="images/product-2.png" alt="Core Essence" class="product-card__img">
+
+                        <div class="product-card__hover">
+                            <button class="product-card__add-btn">
+                Add to Bag
+            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-card__info">
+                        <p class="product-card__name">Velvet Layer</p>
+                        <p class="product-card__price">$260.00</p>
+                    </div>
+
+                </article>
+
+
+                <!-- Card 3 -->
+                <article class="product-card">
+
+                    <div class="product-card__img-wrap">
+
+                        <span class="product-card__badge">
+            Select
+        </span>
+
+                        <button class="product-card__wishlist" aria-label="Add to wishlist">
+            <img src="images/heart.svg" alt="">
+        </button>
+
+                        <img src="images/product-3.png" alt="Core Essence" class="product-card__img">
+
+                        <div class="product-card__hover">
+                            <button class="product-card__add-btn">
+                Add to Bag
+            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-card__info">
+                        <p class="product-card__name">Light Finish</p>
+                        <p class="product-card__price">$70.00</p>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ 3 BRANDS -->
+
+    <section class="brands">
+
+        <div class="container">
+            <div class="brands-section">
+
+                <div class="brand-item">
+                    <span class="brand-sharp">PURITY</span>
+                    <span class="brand-blurred">PURITY</span>
+                </div>
+
+                <div class="brand-item">
+                    <span class="brand-sharp">PRECISION</span>
+                    <span class="brand-blurred">PRECISION</span>
+                </div>
+
+                <div class="brand-item">
+                    <span class="brand-sharp">RITUAL</span>
+                    <span class="brand-blurred">RITUAL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ 4 Illuminating -->
+    <section class="Illuminating">
+        <div class="container">
+            <div class="Illuminating__inner">
+                <h2 class="Illuminating__text">Illuminating your<br>authentic self.</h2>
+                <button class="shop__now-btn">shop now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- run line -->
+    <div class="line">
+        <div class="line__track">
+            <div class="line__group">
+                <span class="line__item">restore
+                            </span>
+                <span class="line__dot"></span>
+                <span class="line__item">glow
+                            </span>
+                <span class="line__dot"></span>
+                <span class="line__item">nourish
+                            </span>
+                <span class="line__dot"></span>
+            </div>
+            <div class="line__group" aria-hidden="true">
+                <span class="line__item">restore
+                            </span>
+                <span class="line__dot"></span>
+                <span class="line__item">glow
+                            </span>
+                <span class="line__dot"></span>
+                <span class="line__item">nourish
+                            </span>
+                <span class="line__dot"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- СЕКЦИЯ 5 Daily Ritual -->
+    <section class="daily__ritual">
+        <div class="container">
+            <div class="section__head">
+                <p class="section__label">Daily Ritual</p>
+                <h2 class="section__title">The<br>Routine Steps</h2>
+                <div class="section__divider"></div>
+            </div>
+
+
+            <div class="routine__items">
+                <div class="routine__item">
+                    <h3 class="routine__item-title">Cleanse</h3>
+                    <p class="routine__text">
+                        A refreshing start to dissolve impurities and pollutants, leaving your skin perfectly balanced.
+                    </p>
+                </div>
+
+                <div class="routine__item">
+                    <h3 class="routine__item-title">Tone</h3>
+                    <p class="routine__text">
+                        Refines the skin while restoring the natural moisture balance for a healthy glow.
+                    </p>
+                </div>
+
+                <div class="routine__item">
+                    <h3 class="routine__item-title">Hydrate</h3>
+                    <p class="routine__text">
+                        Deep nourishment that keeps skin soft, supple, and visibly radiant all day long.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- СЕКЦИЯ 6 nature -->
+
+    <section class="nature">
+        <div class="container">
+            <div class="section__head center">
+                <p class="section__label">Botanical Power</p>
+                <h2 class="section__title">Sourced<br>from Nature</h2>
+                <div class="section__divider"></div>
+            </div>
+
+            <div class="nature__content">
+
+                <img src="images/nature-1.webp" alt="" class="nature__img nature__img--1">
+
+                <img src="images/nature-2.webp" alt="" class="nature__img nature__img--2">
+
+                <img src="images/nature-3.webp" alt="" class="nature__img nature__img--3">
+
+                <p class="nature__text">
+                    We harvest high-potency extracts at their peak to ensure maximum efficacy for your skin's health.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- СЕКЦИЯ 7 #Lumiere Community -->
+    <section class="community">
+        <div class="container">
+            <div class="section__head center">
+                <p class="section__label">Botanical Power</p>
+                <h2 class="section__title">#Lumiere<br>Community</h2>
+                <div class="section__divider"></div>
+            </div>
+
+
+            <div class="community__grid">
+
+                <article class="community__card community__card--product community__card--top-left">
+                    <div class="community__img-wrap">
+                        <img src="images/community-1.webp" class="community__img">
+                        <div class="community__overlay">
+                            <p class="community__product-name">Velvet Layer</p>
+                            <p class="community__product-price">$260.00</p>
+                            <button class="community__add-btn">Add to Bag</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="community__card community__card--bot-left">
+                    <div class="community__img-wrap">
+                        <img src="images/community-2.webp" class="community__img">
+                        <div class="community__overlay">
+                            <p class="community__product-name">Velvet Layer</p>
+                            <p class="community__product-price">$260.00</p>
+                            <button class="community__add-btn">Add to Bag</button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="community__card community__card--center">
+                    <div class="community__img-wrap">
+                        <img src="images/community-3.jpg" class="community__img">
+                        <!-- <div class="community__overlay"></div> -->
+                    </div>
+                </article>
+
+                <article class="community__card community__card--top-right">
+                    <div class="community__img-wrap">
+                        <img src="images/community-4.webp" class="community__img">
+                        <div class="community__overlay">
+                            <p class="community__product-name">Velvet Layer</p>
+                            <p class="community__product-price">$260.00</p>
+                            <button class="community__add-btn">Add to Bag</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="community__card community__card--bot-right">
+                    <div class="community__img-wrap">
+                        <img src="images/community-5.webp" class="community__img">
+                        <div class="community__overlay">
+                            <p class="community__product-name">Velvet Layer</p>
+                            <p class="community__product-price">$260.00</p>
+                            <button class="community__add-btn">Add to Bag</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="community__footer">
+                <p class="community__tagline">Real skin. Real results. Verified by you.</p>
+                <button class="community__btn">Shop Feed Now</button>
+            </div>
+
+
+            <!-- Order -->
+
+            <div class="order-wrap">
+
+                <a href="#" class="order-circle order-circle--pickup">
+                    <span class="order-label">Order</span>
+                    <span class="order-action">pickup</span>
+                </a>
+
+                <a href="#" class="order-circle order-circle--delivery">
+                    <span class="order-label">Order</span>
+                    <span class="order-action">delivery</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <!-- FOOTER -->
+
+</body>
+
+</html>
