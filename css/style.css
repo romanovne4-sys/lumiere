@@ -186,15 +186,16 @@
         /* ЗАГОЛОВОК */
         
         .hero__brand {
-            font-size: clamp(330px, 33vw, 661px);
+            font-size: 36.31vw;
             font-family: "Bacasime Antique", serif;
             font-weight: 400;
             letter-spacing: -0.09em;
             position: absolute;
-            bottom: 0px;
+            bottom: -2.5vw;
             z-index: 4;
             margin: 0;
-            line-height: 0.6;
+            line-height: 0.7;
+            left: -2.55vw;
         }
         /* <!-- СЕКЦИЯ 2 BEST SELLERS --> */
         
