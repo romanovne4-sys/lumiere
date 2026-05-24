@@ -200,7 +200,7 @@
         
         .best-sellers {
             background-color: #EDEBEF;
-            margin-bottom: clamp(140px, 16vw, 300px);
+            margin-bottom: clamp(170px, 19vw, 350px);
         }
         
         .section__label {
@@ -411,6 +411,10 @@
         }
         /* BRADNS */
         
+        .brands {
+            margin-bottom: clamp(220px, 24vw, 450px);
+        }
+        
         .brand-item {
             position: relative;
             height: clamp(150px, 21vw, 390px);
@@ -441,7 +445,7 @@
             right: 0;
             /* ниже текста на 20px */
             bottom: 80px;
-            height: 1px;
+            height: 2px;
             width: 100%;
             background: #000;
             transition: bottom 0.7s cubic-bezier(0.83, 0, 0.17, 1);
